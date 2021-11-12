@@ -80,6 +80,8 @@ yarn add react-native@0.67.0-rc.2 --dev
 
 yarn run type:generate
 
+cd $ROOT/android && ./gradlew clean && cd $ROOT
+
 npm pack
 
 rm -rf ./libSo
